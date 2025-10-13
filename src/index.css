@@ -1,0 +1,14 @@
+/* Tailwind entry points (requires Tailwind set up) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: smooth fonts & body baseline */
+html, body, #root {
+  height: 100%;
+}
+body {
+  -font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
